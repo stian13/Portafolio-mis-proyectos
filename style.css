@@ -1,0 +1,21 @@
+:root{
+    --verde-claro-titulos : #6DCACE;
+    --verde-semioscuro : #559FA2;
+    --verde-resaltador : #67C0C3;
+    --morado-titulo1: #9486EB;
+    --rosado-morado: #B982D3;
+    --verde-oscuro: #1F3E40;
+    --fondo-verde-oscuro: #172326;
+    --sombra-morado-fuerte: -6px 4px 0px -2px #9486EB;
+    --sombra-rosado: 3px 4px 3px 1px #B886EB;
+    --sombra-verde: 0px 4px 8px 0px #75EAEF;
+}
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+html{
+    font-size: 62.5%;
+    font-family: 'Inter', sans-serif;
+}
