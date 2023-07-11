@@ -1,5 +1,5 @@
 :root{
-    --verde-claro-titulos : #6DCACE;
+    --verde-azul-claro-titilos : #6DCACE;
     --verde-semioscuro : #559FA2;
     --verde-resaltador : #67C0C3;
     --morado-titulo1: #9486EB;
@@ -18,4 +18,49 @@
 html{
     font-size: 62.5%;
     font-family: 'Inter', sans-serif;
+}
+body{
+    background-color: var(--fondo-verde-oscuro);
+}
+/*cabecera*/
+header{
+    width: 100%;
+    margin-top: 50px;
+    flex-direction: column;
+    min-width: 324px;
+    position: relative;
+}
+.content-titulos{
+    margin: 0 10px;
+}
+.content-titulos .content-titulos__h2-head{
+    font-size: 1.6rem;
+    font-weight: 400;
+    color: var(--verde-azul-claro-titilos);
+}
+.content-titulos .content-titulos__h2-head-name{
+    font-size: 2.0rem;
+    font-weight: 400;
+    color: var(--verde-azul-claro-titilos);
+
+}
+.content-titulos .content-titulos__h1-head{
+    font-size: 2.6rem;
+    font-weight: 500;
+    color: var(--morado-titulo1);
+}
+header img{
+    position: absolute;
+    width: 150px;
+    height: 150px;
+    box-shadow: var(--sombra-morado-fuerte);
+    border-radius: 5px;
+    right:calc(50% - 75px);
+    margin-top: 30px;
+}
+header .parrafo{
+    color: var(--verde-semioscuro);
+    font-size: 1.4rem;
+    text-align: justify;
+    padding: 200px 10px 0 10px;
 }
