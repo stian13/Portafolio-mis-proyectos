@@ -6,6 +6,7 @@
     --rosado-morado: #B982D3;
     --verde-oscuro: #1F3E40;
     --fondo-verde-oscuro: #172326;
+    --fondo-oscuro : #1E1E1E;
     --sombra-morado-fuerte: -6px 4px 0px -2px #9486EB;
     --sombra-rosado: 3px 4px 3px 1px #B886EB;
     --sombra-verde: 0px 4px 8px 0px #75EAEF;
@@ -24,22 +25,20 @@ body{
 }
 /*cabecera*/
 header{
-    width: 100%;
     margin-top: 50px;
-    flex-direction: column;
-    min-width: 324px;
-    position: relative;
 }
 .content-titulos{
-    margin: 0 10px;
+    width: 90%;
+    min-width: 280px;
+    margin: 0 0 0 20px;
 }
 .content-titulos .content-titulos__h2-head{
-    font-size: 1.6rem;
+    font-size: 2.0rem;
     font-weight: 400;
     color: var(--verde-azul-claro-titilos);
 }
 .content-titulos .content-titulos__h2-head-name{
-    font-size: 2.0rem;
+    font-size: 1.6rem;
     font-weight: 400;
     color: var(--verde-azul-claro-titilos);
 
@@ -62,5 +61,103 @@ header .parrafo{
     color: var(--verde-semioscuro);
     font-size: 1.4rem;
     text-align: justify;
-    padding: 200px 10px 0 10px;
+    width: 90%;
+    min-width: 285px;
+    max-width: 350px;
+    margin-top: 200px;
+    margin-left: auto;
+    margin-right: auto;
+}
+/*---conteiner de tecnologias---*/
+.section-habilidades{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.skills-titulo{
+    text-align: center;
+    margin: 25px 0;
+}
+.titulo-h2{
+    color: var(--morado-titulo1);
+    font-size: 2.0rem;
+    font-weight: 500;
+}
+.conteiner-skills{
+    display: grid;
+    grid-template-columns: repeat(4, 75px);
+}
+.conteiner-skills .card-skills{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.conteiner-skills .card-skills img{
+    width: 50px;
+    height: 50px;
+}
+.conteiner-skills .card-skills div{
+    font-size: 1.4rem;
+    color: var(--verde-azul-claro-titilos);
+    margin: 8px 0;
+}
+/*---proyecto---*/
+.projects-t{
+    text-align: center;
+    margin: 10px 0;
+}
+.projects{
+    display: flex;
+    justify-content: center;
+}
+.conteiner-card-projects{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    width: 1000px;
+    min-width: 300px;
+}
+.card-project{
+    width: 300px;
+    border-radius: 10px;
+    box-shadow: var(--sombra-rosado);
+}
+.card-project .card-project__descripcion{
+    background-color: var(--fondo-oscuro);
+    border-radius: 0 0 10px 10px;
+}
+.card-project .img-projects{
+    width: 100%;
+    height: 270px;
+    border-radius: 10px 10px 0 0;
+}
+.card-project .card-project__title{
+    color: var(--morado-titulo1);
+    font-size: 2rem;
+    text-align: center;
+    font-weight: 400;
+    padding: 15px 0;
+}
+.card-project .card-project__parrafo{
+    color: var(--verde-semioscuro);
+    font-size: 1.4rem;
+    text-align: justify;
+    padding: 10px;
+}
+.card-project .card-project__title-tec{
+    color: var(--rosado-morado);
+    font-size: 1.6rem;
+    text-align: center;
+    font-weight: 400;
+    margin: 15px 0;
+}
+.card-project .conteiner-img-tec{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+.card-project .conteiner-img-tec img{
+    width: 20px;
+    height: 20px;
 }
