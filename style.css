@@ -30,7 +30,7 @@ header{
 .content-titulos{
     width: 90%;
     min-width: 280px;
-    margin: 0 0 0 20px;
+    margin: 0 auto;
 }
 .content-titulos .content-titulos__h2-head{
     font-size: 2.0rem;
@@ -56,6 +56,7 @@ header img{
     border-radius: 5px;
     right:calc(50% - 75px);
     margin-top: 30px;
+    object-fit: cover;
 }
 header .parrafo{
     color: var(--verde-semioscuro);
@@ -85,7 +86,7 @@ header .parrafo{
 }
 .conteiner-skills{
     display: grid;
-    grid-template-columns: repeat(4, 75px);
+    grid-template-columns: repeat(4, 70px);
 }
 .conteiner-skills .card-skills{
     display: flex;

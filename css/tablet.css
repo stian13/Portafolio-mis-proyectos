@@ -1,0 +1,63 @@
+.content-titulos{
+    margin: 0 0 0 5%;
+}
+.content-titulos .content-titulos__h2-head{
+    font-size: 2.6rem;
+    font-weight: 400;
+    color: var(--verde-azul-claro-titilos);
+}
+.content-titulos .content-titulos__h2-head-name{
+    font-size: 2rem;
+    font-weight: 400;
+    color: var(--verde-azul-claro-titilos);
+
+}
+.content-titulos .content-titulos__h1-head{
+    font-size: 3rem;
+    font-weight: 500;
+    color: var(--morado-titulo1);
+}
+header img{
+    right: 2%;
+    top: 100px;
+}
+header .parrafo{
+    color: var(--verde-semioscuro);
+    font-size: 2rem;
+    text-align: justify;
+    width: 90%;
+    min-width: 285px;
+    max-width: 400px;
+    margin: 20px 0 0 5%;
+}
+.titulo-h2{
+    color: var(--morado-titulo1);
+    font-size: 3rem;
+    font-weight: 500;
+}
+.conteiner-skills{
+    grid-template-columns: repeat(4, 100px);
+    place-content: center;
+    gap: 30px;
+}
+.conteiner-skills .card-skills img{
+    width: 80px;
+    height: 80px;
+}
+.footer-div h2{
+    font-size: 2.6rem;
+}
+@media (min-width: 768px) {
+    .content-titulos{
+        margin: 0 0 0 10%;
+    }
+    header .parrafo{
+        margin: 20px 0 0 10%;
+    }
+    header img{
+        right: 10%;
+        top: 10%;
+        width: 200px;
+        height: 200px;
+    }
+}

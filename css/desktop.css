@@ -1,0 +1,27 @@
+.content-titulos{
+    margin: 0 0 0 15%;
+}
+.content-titulos .content-titulos__h2-head{
+    font-size: 3rem;
+}
+.content-titulos .content-titulos__h2-head-name{
+    font-size: 2.6rem;
+}
+.content-titulos .content-titulos__h1-head{
+    font-size: 3.6rem;
+}
+header img{
+    right: 15%;
+    top: 8%;
+    width: 250px;
+    height: 250px;
+}
+header .parrafo{
+    color: var(--verde-semioscuro);
+    font-size: 2.6rem;
+    text-align: justify;
+    width: 90%;
+    min-width: 285px;
+    max-width: 500px;
+    margin: 20px 0 0 15%;
+}
