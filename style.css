@@ -126,9 +126,11 @@ header .parrafo{
 }
 .card-project .card-project__descripcion{
     background-color: var(--fondo-oscuro);
+    height: 340px;
     border-radius: 0 0 10px 10px;
 }
 .card-project .img-projects{
+    object-fit: cover;
     width: 100%;
     height: 270px;
     border-radius: 10px 10px 0 0;
